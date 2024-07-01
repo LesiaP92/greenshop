@@ -1,4 +1,68 @@
-.container1 {
-    color: #46a358;
+.modal {
+max-width: 500px;
+margin: auto;
+padding-top: 52px;
 }
+
+.modal .title {
+text-align: center;
+}
+ .modal .title a {
+font-weight: 500;
+font-size: 20px;
+line-height: 80%;
+color: #3d3d3d;
+text-decoration: none;
+ }
+
+ .modal .title a:last-of-type {
+color: #46a358;;
+ }
+
+.modal .title span {
+font-weight: 250;
+font-size: 18px;
+line-height: 89%;
+color: #3d3d3d;
+}
+
+.text {
+font-weight: 400;
+font-size: 13px;
+line-height: 123%;
+color: #3d3d3d; 
+}
+
+.input_name {
+width: 300px;
+height: 40px;
+}
+
+.input_email {
+width: 300px;
+height: 40px;
+}
+
+.input_password{
+width: 300px;
+height: 40px;
+}
+
+.input_second_pas {
+width: 300px;
+height: 40px;
+}
+
+.btn {
+background: #46a358;
+border-radius: 5px;
+width: 300px;
+height: 45px;
+}
+  .footer_text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+  }
 
