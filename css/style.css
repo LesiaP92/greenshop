@@ -1,11 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .modal {
     max-width: 500px;
     margin: auto;
     padding-top: 52px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    border-bottom: solid 10px #46a358;
 }
 
 .modal .title {
     text-align: center;
+    margin-bottom: 40px;
 }
 .modal .title a {
     font-weight: 500;
@@ -31,14 +42,97 @@
     font-size: 13px;
     line-height: 123%;
     color: #3d3d3d;
+    margin-bottom: 14px;
 }
 
 .input_name {
     width: 300px;
     height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    margin-bottom: 16px;
 }
 
 .input_email {
     width: 300px;
     height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    margin-bottom: 16px;
+}
+
+.input_password {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    margin-bottom: 16px;
+}
+.input_second_pas {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    padding: 12px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: #a5a5a5;
+    margin-bottom: 41px;
+}
+.btn {
+    width: 300px;
+    height: 45px;
+    background: #46a358;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: 36px;
+}
+.footer_text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.link_one {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.link_two {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
 }
