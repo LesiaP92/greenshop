@@ -184,10 +184,9 @@ header a {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    margin-right: 50px;
 }
 .banner {
-   max-width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 main {
