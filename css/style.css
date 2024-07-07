@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'cera_round_pro_demoregular';
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -150,35 +163,41 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid 1px #46a358;
+    padding-bottom: 25px;
 }
 header ul {
     display: flex;
     align-items: center;
     text-decoration: none;
+    gap: 50px;
 }
 header a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular';
     text-decoration: none;
 }
 .link_home {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    margin-right: 50px;
 }
 .link_home:hover {
     font-weight: 700;
+    color: #46a358;
 }
 .link_shop {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    margin-right: 50px;
 }
 .link_plant {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-    margin-right: 50px;
 }
 .link_blogs {
     font-weight: 400;
@@ -186,11 +205,18 @@ header a {
     color: #3d3d3d;
 }
 .banner {
+    display: flex;
     max-width: 1200px;
-    margin: auto;
+    margin-bottom: 26px;
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
 main {
     padding-top: 12px;
+
+}
+.banner_left {
+    padding-left: 41px;
+
 }
 .text_top {
     font-weight: 500;
@@ -201,6 +227,8 @@ main {
     color: #3d3d3d;
     padding-top: 68px;
     margin-bottom: 7px;
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
 }
 .text_title {
     font-weight: 900;
@@ -219,6 +247,8 @@ main {
     line-height: 171%;
     color: #727272;
     margin-bottom: 27px;
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
 }
 .btn_shop {
     border-radius: 6px;
@@ -230,4 +260,51 @@ main {
     line-height: 125%;
     text-transform: uppercase;
     color: #fff;
+    text-decoration: none;
+    padding: 10px 26px;
+    margin-bottom: 85px;
+    font-family: 'cera_round_pro_demoregular';
 }
+
+.product_container {
+    display: flex;
+    justify-content: space-between;
+}
+.product_text {
+    /*max-width: 310px;*/
+    background: #fbfbfb;
+    padding-top: 26px;
+    padding-left: 41px;
+}
+.product_text ul {
+    margin: 14px 189px 377px 18px;
+}
+.product_text a:hover {
+    font-weight: 700;
+    color: #46a358;
+}
+.product_container .product_text p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+.product_text a {
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 267%;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+.product {
+    max-width: 840px;
+    display: flex;
+}
+
+
+
+
