@@ -131,6 +131,9 @@ header {
     font-size: 16px;
     color: #fff;
 }
+.login_btn img {
+    padding-right: 4px;
+}
 header .container {
     display: flex;
     justify-content: space-between;
