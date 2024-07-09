@@ -34,7 +34,8 @@
     font-size: 20px;
     line-height: 80%;
     color: #3d3d3d;
-
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
 }
 .modal .title a:last-of-type {
     color: #46a358;;
@@ -44,6 +45,9 @@
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular';
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .text {
     font-weight: 400;
@@ -51,6 +55,7 @@
     line-height: 123%;
     color: #3d3d3d;
     margin-bottom: 14px;
+    font-family: 'cera_round_pro_demoregular';
 }
 .input_register {
     width: 300px;
@@ -63,6 +68,7 @@
     line-height: 114%;
     color: #a5a5a5;
     margin-bottom: 16px;
+    font-family: 'cera_round_pro_demoregular';
 }
 .btn {
     width: 300px;
@@ -75,7 +81,10 @@
     font-size: 16px;
     line-height: 100%;
     color: #fff;
-    margin-bottom: 36px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'cera_round_pro_demoregular';
+    border: none;
 }
 .footer_text {
     font-weight: 400;
@@ -84,8 +93,9 @@
     color: #3d3d3d;
     text-align: center;
     margin-bottom: 27px;
+    font-family: 'cera_round_pro_demoregular';
 }
-.link_one {
+.link_network {
     border: 1px solid #eaeaea;
     border-radius: 5px;
     width: 300px;
@@ -94,16 +104,14 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
-}
-.link_two {
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 123%;
+    text-align: center;
+    color: #727272;
+    gap: 15px;
+    font-family: 'cera_round_pro_demoregular';
 }
 .container {
     max-width: 1200px;
