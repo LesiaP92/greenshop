@@ -309,19 +309,17 @@ main {
 }
 .product {
     max-width: 840px;
-    display: flex;
 }
 .top_img {
     display: flex;
     justify-content: space-between;
     gap: 33px;
     margin-top: 80px;
-    margin-right: 105px;
-    margin-left: 50px;
 }
-.top_img .img {
+.top_img img {
     width: 258px;
     background: #fbfbfb;
+    padding-bottom: 12px;
 }
 .top_img a {
     text-decoration: none;
@@ -340,7 +338,61 @@ main {
     color: #46a358;
     font-family: 'cera_round_pro_demoregular'
 }
-
+.center_img {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    margin-top: 70px;
+}
+.center_img img {
+    width: 258px;
+    background: #fbfbfb;
+    padding-bottom: 12px;
+}
+.center_img a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular'
+}
+.center_img p {
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+    font-family: 'cera_round_pro_demoregular'
+}
+.bot_img {
+    display: flex;
+    justify-content: space-between;
+    gap: 33px;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+.bot_img img {
+    width: 258px;
+    background: #fbfbfb;
+    padding-bottom: 12px;
+}
+.bot_img a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular'
+}
+.bot_img p {
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+    font-family: 'cera_round_pro_demoregular'
+}
 
 
 
