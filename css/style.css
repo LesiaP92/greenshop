@@ -253,6 +253,7 @@ main {
 .product_text {
     max-width: 310px;
     background: #fbfbfb;
+    margin-bottom: 200px;
 }
 .product_text ul {
     padding-left: 30px;
@@ -328,68 +329,18 @@ main {
 .product {
     max-width: 840px;
 }
-.top_img {
+.flowers_img {
+    max-width: 840px;
     display: flex;
     justify-content: space-between;
-    gap: 33px;
+    flex-wrap: wrap;
+    gap: 70px 30px ;
     margin-top: 80px;
-}
-.top_img a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    color: #3d3d3d;
-    font-family: 'cera_round_pro_demoregular'
-}
-.top_img p {
-    padding-top: 6px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
-    color: #46a358;
-    font-family: 'cera_round_pro_demoregular'
-}
-.center_img {
-    display: flex;
-    justify-content: space-between;
-    gap: 33px;
-    margin-top: 70px;
-}
-.center_img img {
-    width: 258px;
-    background: #fbfbfb;
-    padding-bottom: 12px;
-}
-.center_img a {
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    color: #3d3d3d;
-    font-family: 'cera_round_pro_demoregular'
-}
-.center_img p {
-    padding-top: 6px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
-    color: #46a358;
-    font-family: 'cera_round_pro_demoregular'
-}
-.bot_img {
-    display: flex;
-    justify-content: space-between;
-    gap: 33px;
-    margin-top: 70px;
     margin-bottom: 90px;
 }
-.bot_img img {
-    width: 258px;
-    background: #fbfbfb;
-    padding-bottom: 12px;
-}
-.bot_img a {
+.flowers_img a{
+    display: flex;
+    justify-content: flex-start;
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -397,23 +348,28 @@ main {
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular'
 }
-.bot_img p {
+.flowers_img p {
     padding-top: 6px;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
     font-family: 'cera_round_pro_demoregular'
+}
+.flowers_img img {
+    width: 258px;
+    background: #fbfbfb;
+    padding-bottom: 12px;
 }
 .list_pages {
     display: flex;
     justify-content: flex-end;
+    margin-right: 40px;
+    margin-bottom: 80px;
 }
 .list_pages ul{
     display: flex;
     gap: 10px;
-    margin-right: 120px;
-    margin-bottom: 94px;
 }
 .list_pages a{
     border: 1px solid #e5e5e5;
@@ -424,6 +380,7 @@ main {
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
+    display: inline-block;
     padding: 9px 10px;
     text-decoration: none;
     font-family: 'cera_round_pro_demoregular'
@@ -436,20 +393,22 @@ main {
     color: #fff;
 }
 .flex {
-    max-width: 1202px;
+    max-width: 1200px;
     margin: auto;
-}
-.flex_banner {
-    display: flex;
-    justify-content: space-between;
 }
 .blog_left {
     display: flex;
-    margin: 69px;
+    gap: 28px;
+    margin-bottom: 135px;
 }
-.flex_img img {
-    width: 287px;
-    height: 292px;
+.blog_left article {
+    display: flex;
+    max-width: 586px;
+    background: #fbfbfb;
+}
+.blog_left div {
+    margin-top: 37px;
+    margin-right: 30px;
 }
 .blog_left h1 {
     font-weight: 900;
@@ -458,6 +417,7 @@ main {
     text-transform: uppercase;
     text-align: right;
     color: #3d3d3d;
+    padding-bottom: 10px;
 }
 .blog_left p {
     font-weight: 400;
@@ -465,21 +425,21 @@ main {
     line-height: 171%;
     text-align: right;
     color: #727272;
+    padding-bottom: 15px;
 }
 .blog_left a {
+    margin-left: 120px;
     border-radius: 6px;
     background: #46a358;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
     color: #fff;
-    padding: 11px 12px 9px 28px;
+    padding: 11px 15px 9px 28px;
     font-family: 'cera_round_pro_demoregular'
-
 }
 
 
