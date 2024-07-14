@@ -124,6 +124,7 @@ header {
     border-radius: 6px;
     background: #46a358;
     padding: 7px 17px;
+    transition: 1s;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -131,8 +132,21 @@ header {
     font-size: 16px;
     color: #fff;
 }
-.login_btn img {
-    padding-right: 4px;
+.container .login_btn:hover {
+    font-weight: 700;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+.login_btn:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/Logout.svg");
+    transition: 1s;
+}
+.login_btn:hover:before {
+    background-image: url("../images/Logout2.svg");
 }
 header .container {
     display: flex;
@@ -154,11 +168,6 @@ header a {
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular';
     text-decoration: none;
-}
-.container a:hover {
-    font-weight: 700;
-    font-size: 16px;
-    color: #3d3d3d;
 }
 .link_home {
     font-weight: 400;
@@ -443,7 +452,9 @@ main {
     margin-left: 120px;
     border-radius: 6px;
     background: #46a358;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -521,7 +532,11 @@ main {
     padding-left: 13px;
     color: #3d3d3d;
     transition: 1s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'cera_round_pro_demoregular'
+
 }
 .blog .container_blog .btn-more:hover {
     font-weight: 500;
