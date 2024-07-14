@@ -339,6 +339,12 @@ main {
     margin-top: 80px;
     margin-bottom: 90px;
 }
+.product-cards {
+    border-top: solid 1px transparent;
+}
+.product-cards:hover {
+    border-top: solid 1px #46a358;
+}
 .flowers_img a{
     display: flex;
     justify-content: flex-start;
