@@ -158,36 +158,39 @@ header .container {
 header ul {
     display: flex;
     align-items: center;
-    text-decoration: none;
     gap: 50px;
 }
-header a {
+.container a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular';
     text-decoration: none;
-}
-.link_home {
+    }
+.container .links_navigation {
     font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.container .links_navigation:hover {
+    font-weight: 700;
     font-size: 16px;
     color: #3d3d3d;
 }
-.link_shop {
-    font-weight: 400;
-    font-size: 16px;
-    color: #3d3d3d;
+.links_navigation:hover::after {
+    width: 100%;
 }
-.link_plant {
-    font-weight: 400;
-    font-size: 16px;
-    color: #3d3d3d;
-}
-.link_blogs {
-    font-weight: 400;
-    font-size: 16px;
-    color: #3d3d3d;
+.links_navigation:after {
+    content: "";
+    display: block;
+    width: 0;
+    height:3px ;
+    background-color: #46a358;
+    position: relative;
+    bottom: -31px ;
+    transition: 0.4s;
 }
 .banner {
     display: flex;
@@ -350,6 +353,30 @@ main {
 }
 .product-cards {
     border-top: solid 1px transparent;
+    position: relative;
+}
+.product-cards .frame {
+    display: flex;
+    width: 125px;
+    position: absolute;
+    bottom: 57px;
+}
+.product-cards .frame img {
+    width: 20px;
+    height: 20px;
+}
+.product-cards .sale {
+    width: 80px;
+    height: 29px;
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 7px 8px;
 }
 .product-cards:hover {
     border-top: solid 1px #46a358;
