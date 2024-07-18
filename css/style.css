@@ -137,6 +137,13 @@ header {
     font-size: 16px;
     color: #3d3d3d;
 }
+.container .login_btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'cera_round_pro_demoregular';
+}
 .login_btn:before {
     content: "";
     display: inline-block;
@@ -144,6 +151,7 @@ header {
     height: 18px;
     background-image: url("../images/Logout.svg");
     transition: 1s;
+    padding-right: 15px;
 }
 .login_btn:hover:before {
     background-image: url("../images/Logout2.svg");
@@ -188,13 +196,12 @@ header .menu-first li {
 header .links_navigation:nth-child(3):hover .menu-first {
     display: block;
 }
-.container a {
+.container ul a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     color:  #3d3d3d;
     font-family: 'cera_round_pro_demoregular';
-    text-decoration: none;
     }
 .container .links_navigation {
     font-weight: 400;
@@ -389,6 +396,7 @@ main {
     position: absolute;
     bottom: 57px;
     gap: 26px;
+    left: 27%;
 }
 .product-cards .frame .shopping {
     content: "";
