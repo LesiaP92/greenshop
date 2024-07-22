@@ -858,29 +858,88 @@ main {
 .container-info {
     max-width: 1200px;
     display: flex;
+    justify-content:space-between;
     margin: auto;
+    gap: 120px;
     background: #fbfbfb;
     border-bottom: solid 1px rgba(70, 163, 88, 0.2);
 }
-.container-info .My-account p{
+.container-info .about-account {
+    margin-top: 33px;
+
+}
+.container-info .about-account p{
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
     margin-bottom: 8px;
-    padding-top: 33px;
-    padding-left: 25px;
+    margin-left: 25px;
     font-family: 'cera_round_pro_demoregular'
 }
-.My-account ul {
+.about-account ul {
     padding-left: 25px;
-    padding-bottom: 29px;
+    padding-bottom: 30px;
 }
-.My-account a {
+.about-account a {
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     text-decoration: none;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular'
+}
+.social-media {
+    margin-top: 33px;
+    margin-right: 150px;
+}
+.social-media h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular'
+}
+.social-media ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.social-media li {
+    border: 1px solid rgba(70, 163, 88, 0.2);
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+}
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 7px;
+}
+.social-media h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 13px;
+    line-height: 89%;
+    color: #3d3d3d;
+    font-family: 'cera_round_pro_demoregular'
+}
+.social-media .bank-cards {
+    width: 224px;
+    height: 26px;
+    background: #fbfbfb;
+    mix-blend-mode: multiply;
+}
+.GreenShop {
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular'
 }
