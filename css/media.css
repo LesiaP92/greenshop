@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1024px){
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .flowers_img {
+        justify-content: space-around;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 993px){
+    header .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+@media only screen and (min-width: 834px){
+    header .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .banner {
+        padding-bottom: 20px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+    }
+    .social-media {
+        margin-right: 30px;
+    }
+
+}

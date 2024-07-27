@@ -132,6 +132,10 @@
     max-width: 1200px;
     margin: auto;
 }
+.container .first-logo {
+    width: 100px;
+    height: 35px;
+}
 header {
     padding-top: 31px;
 }
@@ -253,11 +257,13 @@ header .links_navigation:nth-child(3):hover .menu-first {
 }
 main {
     padding-top: 12px;
-
 }
 .banner_left {
     padding-left: 41px;
-
+}
+.banner_right img {
+    width: 507px;
+    height: 450px;
 }
 .text_top {
     font-weight: 500;
@@ -347,6 +353,8 @@ main {
     color: #3d3d3d;
 }
 .sale_img {
+    width: 310px;
+    height: 470px;
     margin-left: -30px;
 }
 .product {
@@ -713,9 +721,13 @@ main {
     position: relative;
 }
 .banner-top .cards-info {
-    width: 204px;
+    width: 230px;
     padding-top: 24px;
     margin-bottom: 40px;
+    border-right: 1px solid rgba(70, 163, 88, 0.1);
+}
+.banner-top .cards-info:last-of-type {
+    border-right: none;
 }
 .banner-top .cards-info img {
     width: 77px;
@@ -957,7 +969,7 @@ main {
     position: relative;
     top: 0;
     left: 0;
-animation: ani 4s infinite;
+    animation: ani 4s infinite;
 }
 @keyframes ani {
     0% {
