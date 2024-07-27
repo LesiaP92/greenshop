@@ -77,13 +77,13 @@
     margin-bottom: 16px;
     font-family: 'cera_round_pro_demoregular';
 }
-.input-password {
+.input_register {
     position: relative;
 }
-.title .input-password .eye-icon {
+.title .input_register .eye-icon {
     position: absolute;
-    right: 10px;
-    bottom: 25px;
+    right: -260px;
+    top: -45px;
 }
 .btn {
     width: 300px;
@@ -206,7 +206,9 @@ header .menu-first li {
     min-width: 188px;
     padding-bottom: 10px;
     padding-left: 14px;
-
+}
+header .menu-first .menu-link:hover {
+    background: #1a712a;
 }
 header .links_navigation:nth-child(3):hover .menu-first {
     display: block;
@@ -418,33 +420,42 @@ main {
     width: 20px;
     height: 20px;
     background-image: url("../images/shopping2.svg");
-    transition: 0.5s;
+    opacity: 0;
+    transition: 0.3s;
 }
 .product-cards .frame .shopping:hover {
     background-image: url("../images/shopping1.svg");
     color: #46a358;
+    opacity: 1;
+    transition: 0.3s;
 }
 .product-cards .frame .heart {
     content: "";
     width: 20px;
     height: 20px;
     background-image: url("../images/heart1.svg");
-    transition: 0.5s;
+    opacity: 0;
+    transition: 0.3s;
 }
 .product-cards .frame .heart:hover {
     background-image: url("../images/heart2.svg");
     color: #46a358;
+    opacity: 1;
+    transition: 0.3s;
 }
 .product-cards .frame .vector {
     content: "";
     width: 20px;
     height: 20px;
     background-image: url("../images/Vector (1).svg");
-    transition: 0.5s;
+    opacity: 0;
+    transition: 0.3s;
 }
 .product-cards .frame .vector:hover {
     background-image: url("../images/Vector(2).svg");
     color: #46a358;
+    opacity: 1;
+    transition: 0.3s;
 }
 .product-cards .frame img {
     width: 20px;
@@ -703,7 +714,6 @@ main {
 }
 .banner-top .cards-info {
     width: 204px;
-    height: 202px;
     padding-top: 24px;
     margin-bottom: 40px;
 }
@@ -735,7 +745,6 @@ main {
 }
 .cards-last {
     width: 354px;
-    height: 202px;
     background: #fbfbfb;
     margin-bottom: 40px;
 }
@@ -818,7 +827,7 @@ main {
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular'
 }
-.container-background .contact :before {
+.container-background .contact:before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -943,7 +952,27 @@ main {
     color: #3d3d3d;
     font-family: 'cera_round_pro_demoregular'
 }
-
+.animal {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+animation: ani 4s infinite;
+}
+@keyframes ani {
+    0% {
+        top: 0;
+    }
+    10%{
+        top: 10px;
+    }
+    20%{
+        top: 15px;
+    }
+    30% {
+        top: 20px;
+    }
+}
 
 
 
