@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px){
+@media only screen and (max-width: 1024px){
     .container {
         padding-right: 10px;
         padding-left: 10px;
@@ -24,7 +24,7 @@
         gap: 20px;
     }
 }
-@media only screen and (min-width: 993px){
+@media only screen and (max-width: 993px){
     header .container {
         padding-right: 15px;
         padding-left: 15px;
@@ -53,7 +53,7 @@
         gap: 20px;
     }
 }
-@media only screen and (min-width: 834px){
+@media only screen and (max-width: 834px){
     header .container {
         padding-right: 10px;
         padding-left: 10px;
@@ -87,5 +87,231 @@
     .social-media {
         margin-right: 30px;
     }
+}
+@media only screen and (max-width: 820px) {
+    header .container {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    .banner {
+        padding-bottom: 25px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+    }
+    .social-media {
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    header .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .banner {
+        padding-bottom: 28px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .social-media {
+        margin-right: 25px;
+    }
+}
+@media only screen and (max-width: 768px){
+    header .container {
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+    .banner .text_title  {
+        font-size: 65px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .social-media {
+        margin-right: 25px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    header .container {
+        padding-right: 13px;
+        padding-left: 20px;
+    }
+    .container ul {
+        display: block;
+    }
+    .banner {
+        display: block;
+    }
+    .banner .text_title  {
+        font-size: 55px;
+    }
+    .product_container {
+        display: block;
+    }
+    .text_product {
+        display: block;
+    }
+    .text_product ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        gap: 38px;
+    }
+    .text_product p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .banner-section .blog_left {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-background {
+        flex-direction: column;
+        font-size: 8px;
+    }
+    .container-info {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 414px) {
+    header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container ul {
+        display: block;
+    }
+    .banner {
+        display: block;
+    }
+    .banner .text_title  {
+        font-size: 50px;
+    }
+    .banner_right img {
+        max-width: 475px;
+    }
+    .product_container {
+        display: block;
+    }
+    .text_product ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        gap: 38px;
+    }
+    .text_product p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .flowers_img {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .banner-section .blog_left {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .blog .flower-collection {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .blog .flower-collection article {
+        margin: 13px;
+    }
+    .banner-top .container-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container-background {
+        flex-direction: column;
+        font-size: 8px;
+    }
+    .container-info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 }
+
