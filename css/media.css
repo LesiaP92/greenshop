@@ -159,11 +159,27 @@
 }
 @media only screen and (max-width: 768px){
     header .container {
-        padding-right: 13px;
-        padding-left: 13px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .banner_left {
+        text-align: center;
+    }
+    .banner_left .text_top {
+        padding-top: 35px;
     }
     .banner .text_title  {
         font-size: 65px;
+    }
+    .product_text {
+        padding-left: 15px;
+    }
+    .text_product ul{
+        gap: 20px;
+        padding-right: 30px;
+    }
+    .text_product p {
+        padding-right: 15px;
     }
     .flowers_img {
         display: flex;
@@ -173,6 +189,14 @@
     .banner-section .blog_left article {
         display: block;
         margin: auto;
+        text-align: center;
+    }
+    .blog_left article h3{
+        text-align: center;
+        padding-top: 15px;
+    }
+    .blog_left article p{
+        text-align: center;
     }
     .blog .flower-collection {
         flex-wrap: wrap;
@@ -181,6 +205,9 @@
     .banner-top .container-top {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .banner-top .cards-info{
+        border-radius: 0px;
     }
     .container-info {
         display: flex;
@@ -191,32 +218,57 @@
         margin-right: 25px;
     }
 }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 428px) {
     header .container {
-        padding-right: 13px;
-        padding-left: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .container .first-logo{
+        overflow: hidden;
+        display: inline-block;
+        width: 36px;
     }
     .container ul {
-        display: block;
+        display: none;
     }
     .banner {
         display: block;
     }
+    .banner_left{
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 15px;
+    }
     .banner .text_title  {
-        font-size: 55px;
+        font-size: 53px;
     }
     .product_container {
         display: block;
     }
+    .product_text{
+        margin-bottom: 50px;
+    }
+    .product_text ul {
+        padding-left: 50px;
+        margin-bottom: 60px;
+    }
+    .product_text p{
+        padding-left: 40px;
+    }
+    .sale_img {
+        margin-left: 44px;
+    }
     .text_product {
-        display: block;
+        flex-wrap: wrap;
+        padding: 0 15px;
     }
     .text_product ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         text-decoration: none;
-        gap: 38px;
+        gap: 90px;
+        padding-bottom: 10px;
     }
     .text_product p {
         text-align: center;
@@ -227,9 +279,28 @@
         flex-flow: column;
         align-items: center;
     }
+    .banner-section {
+        margin-bottom: 60px;
+    }
     .banner-section .blog_left {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .blog_left h3 {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .blog_left p {
+        text-align: center;
+    }
+    .container_blog .text-blog {
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .blog .flower-collection {
         flex-wrap: wrap;
@@ -238,6 +309,10 @@
     .banner-top .container-top {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .banner-top .cards-info{
+        text-align: center;
+        border-right: hidden;
     }
     .container-background {
         flex-direction: column;
@@ -250,20 +325,28 @@
 }
 @media only screen and (max-width: 414px) {
     header .container {
-        display: flex;
-        justify-content: space-between;
+        padding-right: 15px;
+        padding-left: 15px;
     }
-    .container ul {
-        display: block;
+    .container .first-logo{
+        overflow: hidden;
+        display: inline-block;
+        width: 36px;
     }
     .banner {
         display: block;
+    }
+    .banner_left{
+        text-align: center;
+        padding-right: 15px;
+        padding-top: 15px;
     }
     .banner .text_title  {
         font-size: 50px;
     }
     .banner_right img {
-        max-width: 475px;
+        width: 468px;
+        height: 454px;
     }
     .product_container {
         display: block;
@@ -273,11 +356,12 @@
         justify-content: space-around;
         align-items: center;
         text-decoration: none;
-        gap: 38px;
+        gap: 75px;
+        padding-bottom: 8px;
     }
     .text_product p {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 8px;
     }
     .flowers_img {
         display: flex;
@@ -287,6 +371,18 @@
     .banner-section .blog_left {
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .banner-section .blog_left article {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .blog_left h3 {
+        text-align: center;
+        padding-top: 12px;
+    }
+    .blog_left p {
+        text-align: center;
     }
     .blog .flower-collection {
         flex-wrap: wrap;
@@ -312,6 +408,11 @@
         justify-content: space-around;
         align-items: center;
     }
-
+    .social-media {
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-bottom: 12px;
+    }
 }
+
 
