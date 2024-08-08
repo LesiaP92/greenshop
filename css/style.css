@@ -1014,6 +1014,9 @@ main {
         display: none;
     }
 }
+.nav-but-wrap {
+    display: none;
+}
 
 
 
