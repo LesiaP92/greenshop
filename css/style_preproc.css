@@ -294,7 +294,7 @@ header .menu-first li:hover {
 
 .two-level_menu {
   padding-top: 9px;
-  padding-right: 33px;
+  padding-right: 99px;
   padding-bottom: 9px;
 }
 
@@ -448,7 +448,7 @@ main {
   color: #fff;
   text-decoration: none;
   padding: 10px 26px;
-  margin-bottom: "cera_round_pro_demomedium";
+  font-family: "cera_round_pro_demomedium";
 }
 
 .product_section {
@@ -746,12 +746,22 @@ main {
   text-decoration: none;
   font-family: "cera_round_pro_demoregular";
 }
+.list_pages a:hover {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 89%;
+  color: #fff;
+  font-family: "cera_round_pro_demomedium";
+}
 
 .list_pages .arrow {
   content: "";
   width: 18px;
   height: 18px;
   background-image: url("../images/Arrow-Right2.svg");
+}
+.list_pages .arrow:hover {
+  background-image: url("../images/Arrow-Right5.svg");
 }
 
 .list_pages .arrow {
@@ -1145,6 +1155,10 @@ main {
   text-decoration: none;
   color: #3d3d3d;
   font-family: "cera_round_pro_demoregular";
+}
+.container-info .about-account a:hover {
+  color: #46a358;
+  font-family: "cera_round_pro_demomedium";
 }
 
 .social-media {

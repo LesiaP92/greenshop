@@ -242,7 +242,7 @@ header .menu-first li:hover {
 }
 .two-level_menu {
   padding-top: 9px;
-  padding-right: 33px;
+  padding-right: 99px;
   padding-bottom: 9px;
 }
 .menu-link:hover{
@@ -377,7 +377,7 @@ main {
   color: $main_background_color;
   text-decoration: none;
   padding: 10px 26px;
-  margin-bottom: $main_font_medium;
+  font-family: $main_font_medium;
 }
 .product_section {
   max-width: 1200px;
@@ -645,6 +645,13 @@ main {
     padding: 9px 10px;
     text-decoration: none;
     font-family: $main_font_regular;
+    &:hover{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 89%;
+      color: #fff;
+      font-family: $main_font_medium;
+    }
   }
 }
 .list_pages .arrow {
@@ -652,6 +659,9 @@ main {
   width: 18px;
   height: 18px;
   background-image: url("../images/Arrow-Right2.svg");
+  &:hover {
+    background-image: url("../images/Arrow-Right5.svg");
+  }
 }
 .list_pages .arrow {
   display: inline-flex;
@@ -1017,6 +1027,10 @@ main {
       text-decoration: none;
       color: #3d3d3d;
       font-family: $main_font_regular;
+      &:hover {
+        color: #46a358;
+        font-family: $main_font_medium;
+      }
     }
   }
 }
