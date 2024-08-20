@@ -836,7 +836,7 @@ main {
   background-image: url("../images/Arrow-Right4.svg");
 }
 .banner-top {
-  max-width: 100%;
+  max-width: 1200px;
   margin: auto;
   background: #fbfbfb;
   .container-top {
@@ -857,6 +857,9 @@ main {
     height: 95px;
     padding-bottom: 15px;
   }
+}
+.banner-top .cards-info:first-of-type {
+  margin-left: 23px;
 }
 .banner-top .cards-info:last-of-type {
   border-right: none;
@@ -938,7 +941,7 @@ main {
   }
 }
 .container-background {
-  max-width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1005,7 +1008,7 @@ main {
   }
 }
 .container-info {
-  max-width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content:space-around;
   margin: auto;

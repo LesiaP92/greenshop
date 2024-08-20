@@ -952,7 +952,7 @@ main {
 }
 
 .banner-top {
-  max-width: 100%;
+  max-width: 1200px;
   margin: auto;
   background: #fbfbfb;
 }
@@ -974,6 +974,10 @@ main {
   width: 77px;
   height: 95px;
   padding-bottom: 15px;
+}
+
+.banner-top .cards-info:first-of-type {
+  margin-left: 23px;
 }
 
 .banner-top .cards-info:last-of-type {
@@ -1061,7 +1065,7 @@ main {
 }
 
 .container-background {
-  max-width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -1132,7 +1136,7 @@ main {
 }
 
 .container-info {
-  max-width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   margin: auto;
