@@ -43,6 +43,14 @@ $main_background_color: #fff;
       padding-left: 10px;
     }
   }
+  .google {
+    width: 20px;
+    height: 20px;
+  }
+  .facebook{
+    width: 20px;
+    height: 20px;
+  }
 }
 .modal .btn-close {
   margin: auto;
@@ -1055,6 +1063,26 @@ main {
     border-radius: 4px;
     width: 30px;
     height: 30px;
+    .Facebook {
+      width: 8px;
+      height: 16px;
+    }
+    .Instagram {
+      width: 16px;
+      height: 16px;
+    }
+    .Twitter {
+      width: 16px;
+      height: 13px;
+    }
+    .Linkedin {
+      width: 16px;
+      height: 16px;
+    }
+    .Union {
+      width: 19px;
+      height: 14px;
+    }
   }
   a {
     display: inline-flex;

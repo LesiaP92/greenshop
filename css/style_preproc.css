@@ -71,6 +71,14 @@
   padding-right: 10px;
   padding-left: 10px;
 }
+.modal .google {
+  width: 20px;
+  height: 20px;
+}
+.modal .facebook {
+  width: 20px;
+  height: 20px;
+}
 
 .modal .btn-close {
   margin: auto;
@@ -1184,6 +1192,26 @@ main {
   border-radius: 4px;
   width: 30px;
   height: 30px;
+}
+.social-media li .Facebook {
+  width: 8px;
+  height: 16px;
+}
+.social-media li .Instagram {
+  width: 16px;
+  height: 16px;
+}
+.social-media li .Twitter {
+  width: 16px;
+  height: 13px;
+}
+.social-media li .Linkedin {
+  width: 16px;
+  height: 16px;
+}
+.social-media li .Union {
+  width: 19px;
+  height: 14px;
 }
 .social-media a {
   display: inline-flex;
